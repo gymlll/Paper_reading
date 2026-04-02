@@ -1,0 +1,27 @@
+# 论文 PDF 及 MinerU 转换结果，文件较大
+papers/
+
+# MinerU 文档含 API Token，不纳入版本管理
+MinerU.md
+
+# 配置文件含 API Key
+config.yaml
+
+# 数据库和上传文件
+data/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/

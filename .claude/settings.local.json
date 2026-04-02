@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show:*)",
+      "Bash(python scripts/mineru_parse.py \"E:/LLM_论文/paper/1_LLM Agents for Education Advances and Applications.pdf\")",
+      "Bash(python -c \":*)",
+      "Bash(npm:*)",
+      "Bash(pip list:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"from backend.database import init_db; init_db\\(\\); print\\(''DB initialized OK''\\)\")",
+      "Bash(timeout 8 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000)",
+      "Bash(npx vite:*)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill:*)",
+      "Bash(curl -s http://127.0.0.1:8000/api/v1/health)",
+      "Bash(curl -s http://127.0.0.1:8000/api/v1/papers)",
+      "Bash(curl -s http://127.0.0.1:8000/api/v1/dashboard/stats)",
+      "Bash(curl -s http://127.0.0.1:5173/)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl:*)",
+      "Bash(tasklist)",
+      "Bash(head -5 backend/*.py)",
+      "Bash(python:*)",
+      "Bash(findstr :8000)",
+      "Bash(python -u -c \":*)",
+      "Bash(pkill -f \"uvicorn backend\")",
+      "Bash(findstr \":8000.*LISTEN\")",
+      "Bash(findstr 14764)",
+      "Bash(tasklist:*)",
+      "Bash(findstr \":8001.*LISTEN\")",
+      "Bash(findstr \":5173.*LISTEN\")",
+      "Read(//c/Users/31958/AppData/Local/Temp/claude/E--projecthome-Paper-reading/9c0617a1-3ab3-40d7-b9c0-0c9d01aee7b6/tasks/**)"
+    ]
+  }
+}
